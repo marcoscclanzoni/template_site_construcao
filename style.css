@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+.main{
+		top: 0px;
+		width: 100%;
+		min-height: 100vh;
+		position: absolute !important;
+		background: radial-gradient(rgb(164, 110, 240), rgb(118, 46, 219));
+}
+
+.main__logo{
+	display: block;
+	margin: auto;
+	margin: 30px auto;
+	max-width: 100% !important;
+}
+
+.main__inittext{
+	font-family: Comfortaa, Arial, Helvetica, sans-serif;
+	font-size: 3vh;
+	width: 600px;
+	margin: auto;
+	padding: auto;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+
+i.main__gear{
+	margin: 20px auto;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.main__inittextprincipal{
+	max-width: 100%;
+	margin: 40px auto;
+	padding: auto;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	font-size: 5vh;
+	font-family: Comfortaa, Arial, Helvetica, sans-serif;
+}
+
+.phone{
+	transform: rotate(90deg);
+}
+
+.geralinfo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	margin: 50px;
+}
+
+.main__geralinfo__info{
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+a{
+	text-decoration: none;
+	color: white
+}
+
+.main__geralinfo__email__link:hover{
+	color: greenyellow;
+}
+
+@media (min-width:100px) and (max-width:600px){
+	.main__inittext{
+		font-size: 3vh;
+		width: auto;
+	}
+	.main__inittextprincipal{
+		width: auto;
+		font-size: 4vh;
+	}
+	.main__logo{
+		max-width: 90% !important;
+	}	
+}
+
